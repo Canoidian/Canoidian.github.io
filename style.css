@@ -1,0 +1,28 @@
+/*Code below does not work as it is not linked*/
+/*
+h1 {
+    color: purple;
+}
+*/
+h1 {
+  /*So this is surprising colour sets the colour wow */
+  /*color: rgb(26, 108, 214);*/
+  /*you can also set the opacity, by adding a a after rgb and adding a 4 digit in the ()*/
+  /*For colour you can use, words(red, green) RGB (0,0,0) or Hex(#000)*/
+  background-color: rgb(226, 226, 252);
+  color: rgba(87, 139, 235, 0.5);
+}
+/*Hard coding below. Box will stay the same no matter what*/
+/*div {
+    width: 200;
+    height: 200;
+    background-color: black;
+}
+*/
+div {
+    width: 100%;
+    max-width: 200;
+    
+    height: 200vh;
+    background-color: black;
+}
